@@ -8,7 +8,7 @@ $serverName = "tcp:dbservertp042049.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 if(!$conn)
   {
-    die("Error connection: ".sqlsrv_errors());
+    die("Error connection: ".print_r( sqlsrv_errors()));
   }
 echo "Connection to Db: Success!";
 ?>
