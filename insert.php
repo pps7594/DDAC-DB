@@ -1,5 +1,5 @@
 <?php
-$connectionInfo = array("UID" => "apuadmin", "pwd" => "{apu@1234}", "Database" => "WebAppDB", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+$connectionInfo = array("UID" => "apuadmin", "pwd" => "apu@1234", "Database" => "WebAppDB", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 $serverName = "tcp:tp042049testdb.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
